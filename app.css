@@ -1,0 +1,74 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  flex: 1 1 30%;
+}
+
+.btn.primary {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.actions .icon {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.icon.edit {
+  color: #007bff;
+}
+
+.icon.delete {
+  color: red;
+}
+
+.icon.toggle {
+  color: #555;
+}
+
+.hidden-row {
+  opacity: 0.6;
+  background-color: #f9f9f9;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+}
